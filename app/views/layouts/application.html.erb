@@ -9,7 +9,7 @@
 <body>
 	<div class="navbar navbar-fixed-top">
 				<div class="container">
-				<a class="brand" href="/statuses">Treebook</a>
+				<a class="brand treebook-text" href="/statuses">Treebook</a>
 				<ul class="nav">
   					<li class="active">
     					<%= link_to "All Statuses", statuses_path %>
@@ -17,7 +17,9 @@
 				</div>
 	</div>
 	<div class= "container">
-<%= yield %>
+			<p class="notice"><%= notice %></p>
+			<p class="alert"><%= alert %></p>
+	<%= yield %>
 	</div>
 </body>
 </html>
