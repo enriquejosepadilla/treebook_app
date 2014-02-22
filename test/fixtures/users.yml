@@ -4,3 +4,8 @@ bob:
  last_name: padilla
  email: bobbypadilla@outlook.com
 
+jim:
+ first_name: jim
+ profile_name: jimsky
+ last_name: smith
+ email: jimtree@outlook.com
